@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sun Konark Heritage — Demo</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="menu-toggle" id="menuToggle">☰</div>
+  <div class="logo">
+    <img src="assets/logo.png" alt="logo" />
+    <span>Heritage Project</span>
+  </div>
+  <nav id="mainNav">
+    <a href="#about">About</a>
+    <a href="#models">Models</a>
+    <a href="#explore" id="explore-btn">Explore</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2><span class="typewriter">Sun Konark Temple</span></h2>
+
+    <div class="hero-image" id="heroImage">
+      <img src="assets/312674bb5e1822d6c855649823223a54.jpg" alt="Sun Konark Temple" />
+    </div>
+    <div class="controls">
+      <button class="btn vr">View in VR</button>
+      <button class="btn view3">View in 3D</button>
+      <button class="btn back">Back to Image</button>
+    </div>
+
+    <div class="audio-wrap">
+      <div class="audio-left">
+        <img src="assets/logo.png" alt="badge" />
+      </div>
+      <div class="audio-player">
+        <audio id="narration" controls>
+          <source src="assets/narration.wav" type="audio/wav">
+          Your browser does not support audio.
+        </audio>
+      </div>
+      <div class="eq" id="eq">
+        <div></div><div></div><div></div><div></div><div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about card reveal">
+    <h2>About the Heritage Site</h2>
+    <ul>
+      <li>Built in the 13th century during the reign of King Narasimhadeva I</li>
+      <li>Located in Puri, Odisha, on the eastern coast of India</li>
+      <li>Famous for its architectural marvel and intricate stone carvings</li>
+      <li>Designed in the form of a colossal chariot dedicated to the Sun God</li>
+    </ul>
+  </section>
+
+  <section id="models" class="models">
+    <div class="model-card reveal flip">
+      <img src="/assets/konark.jpg" alt="present" />
+      <p>Present Model</p>
+    </div>
+    <div class="model-card reveal flip">
+      <img src="/assets/Reconstruction.png" alt="future" />
+      <p>Future (Reconstruction)</p>
+    </div>
+  </section>
+
+  <div class="center">
+    <button class="pulse" id="explore">Explore Nearby Hidden Items</button>
+  </div>
+
+  <footer class="footer">
+    © 2025 Heritage Project
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+<!-- Add this to the end of the body section -->
+<div class="chatbot-btn" id="chatbotBtn">💬</div>
+<script>
+  document.getElementById('chatbotBtn').addEventListener('click', function() {
+    alert('Chatbot is under development. Please contact support.');
+  });
+</script>
+
+</html>

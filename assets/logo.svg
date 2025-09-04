@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 100 100'>
+<circle cx='50' cy='50' r='44' fill='#b77b3b'/>
+<circle cx='50' cy='50' r='30' fill='#efe7db'/>
+<text x='50' y='56' font-size='14' text-anchor='middle' font-family='serif' fill='#7b4b2a'>HP</text>
+</svg>

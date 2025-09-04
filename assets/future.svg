@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'>
+<rect width='100%' height='100%' fill='#efe7db'/>
+<g transform='translate(100,60)'>
+  <rect x='40' y='240' width='520' height='44' fill='#9a5a2a' rx='6' />
+  <rect x='120' y='60' width='360' height='240' fill='#f1e1cc' stroke='#b07a47' stroke-width='6' rx='8' />
+  <path d='M300 0 L160 120 L440 120 Z' fill='#b77b3b' stroke='#8a4f2b' stroke-width='5'/>
+  <text x='200' y='320' font-family='sans-serif' fill='#5b3e2b' font-size='26'>Reconstructed Model (Future)</text>
+</g>
+</svg>
