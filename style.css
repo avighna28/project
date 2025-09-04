@@ -106,11 +106,6 @@ body {
   transition: transform .6s ease;
 }
 
-.hero-image:hover img {
-  transform: scale(1.06);
-}
-
-
 /* Controls */
 .controls {
   margin-top: 12px;
